@@ -1,0 +1,40 @@
+@keyframes color {
+    0%   { background: #33CCCC; }
+    20%  { background: #33CC36; }
+    40%  { background: #B8CC33; }
+    60%  { background: #FCCA00; }
+    80%  { background: #33CC36; }
+    100% { background: #33CCCC; }
+  }
+  
+  body {
+    background: #33CCCC; /* Fallback */
+    animation: color 15s infinite linear;
+    text-align: center;
+    padding: 2em;
+  }
+
+.entrada {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+input { 
+    font-size: 15px;
+    width: 150px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 12px;
+    border-radius: 7px;
+    border: none;
+    text-align: center;
+}
+
+.boton{
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 5px;
+    width: 50px;
+    margin: 15px;
+}
